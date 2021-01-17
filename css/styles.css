@@ -7,7 +7,7 @@
   --fb-red: #ee2340;
   --fb-green: #3db557;
   --fb-yellow: #f6b024;
-  --fb-bgcolor: #eef0f3;
+  --fb-bgcolor: #1d335e;
   --fb-white: #ffffff;
   --fb-whitebg: #ffffff;
   --dark-color-text: #090909;
@@ -16,7 +16,7 @@
   --stories-bg: #090909;
 }
 body {
-  background: var(--bgcolor);
+  background: var(--fbgcolor);
   font-family: Helvetica, Arial, sans-serif;
   color: var(--fb-black);
 }
