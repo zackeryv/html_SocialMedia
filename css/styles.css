@@ -1,3 +1,32 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --fb-blue: #0a86f0;
+  --fb-black: #090909;
+  --fb-red: #ee2340;
+  --fb-green: #3db557;
+  --fb-yellow: #f6b024;
+  --fb-bgcolor: #eef0f3;
+  --fb-white: #ffffff;
+  --fb-whitebg: #ffffff;
+  --dark-color-text: #090909;
+  --light-color-text: #606770;
+  --buton-link: #e0e2e8;
+  --stories-bg: #090909;
+}
+body {
+  background: var(--bgcolor);
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--fb-black);
+}
+header {
+  background: var(--fb-whitebg);
+  height: 62px;
+  display: flex;
+  padding: 0 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
