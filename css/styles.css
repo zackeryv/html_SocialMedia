@@ -16,7 +16,7 @@
   --stories-bg: #090909;
 }
 body {
-  background: var(--fbgcolor);
+  background: var(--fb-bgcolor);
   font-family: Helvetica, Arial, sans-serif;
   color: var(--fb-black);
 }
@@ -28,5 +28,12 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+}
+.header__logo-section {
+  display: flex;
 }
