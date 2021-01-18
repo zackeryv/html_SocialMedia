@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+*:focus {
+  outline: none;
+}
 :root {
   --fb-blue: #0a86f0;
   --fb-black: #090909;
@@ -36,4 +39,28 @@ header {
 }
 .header__logo-section {
   display: flex;
+}
+.header__logo-icon .fa-facebook {
+  font-size: 40px;
+  color: var(--fb-blue);
+}
+.header__logo-search {
+  position: relative;
+  margin-left: 10px;
+}
+.header__logo-search .fa-search {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  color: var(--light-color-text);
+}
+.header__logo-search input[type="text"] {
+  background: var(--fb-bgcolor);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  color: var(--light-color-text);
+  padding-left: 35px;
+  font-weight: 300;
+  border: none;
 }
